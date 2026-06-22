@@ -213,7 +213,7 @@ const Hero = () => {
                 className="relative rounded-2xl overflow-hidden border border-border/50 shadow-2xl bg-card/50 backdrop-blur-sm"
               >
                 <img
-                  src="/avatar1.png"
+                  src="/avatar.png"
                   alt="Robert Eng"
                   className="w-full h-full object-cover aspect-[3/4] scale-110 object-center"
                   loading="eager"
