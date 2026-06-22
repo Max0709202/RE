@@ -10,9 +10,9 @@ interface SEOProps {
 }
 
 const SEO = ({
-  title = "Robert Eng | Full Stack Engineer | Max-Dev | Japanese Developer",
+  title = "Robert Eng | Full Stack Engineer | Max-Dev | Malaysian Developer",
   description = "Robert Eng (Max-Dev) - Experienced Full Stack Engineer based in Malaysia. 12+ years developing robust web applications with React, Node.js, TypeScript, and modern technologies.",
-  keywords = "Robert Eng, Eng, Robert, max-dev, max dev, fullstack, fullstack engineer, full stack developer, Japanese developer, Japan developer, React developer, Node.js developer, TypeScript developer, web developer, software engineer, Tottori developer, freelance developer, remote developer",
+  keywords = "Robert Eng, Eng, Robert, max-dev, max dev, fullstack, fullstack engineer, full stack developer, Malaysian developer, Malaysia developer, React developer, Node.js developer, TypeScript developer, web developer, software engineer, Tottori developer, freelance developer, remote developer",
   image = "https://devplusplus.xyz/og-image.png",
   url = "https://devplusplus.xyz",
   type = "website",

@@ -4,7 +4,7 @@ import { ArrowDown, MapPin, Linkedin, Github, Mail, MessageCircle, Send, Chevron
 
 // Resume PDFs are in public/ so they're served at root and work on all platforms (incl. Vercel)
 const resumeEnglishUrl = "/Resume-English.pdf";
-const resumeJapaneseUrl = "/Resume-Japanese.pdf";
+const resumeMalaysianUrl = "/Resume-Malaysian.pdf";
 
 const Hero = () => {
   const [isResumeDropdownOpen, setIsResumeDropdownOpen] = useState(false);
@@ -39,11 +39,11 @@ const Hero = () => {
     setIsResumeDropdownOpen(false);
   };
 
-  const handleDownloadJapanese = (e: React.MouseEvent<HTMLAnchorElement>) => {
+  const handleDownloadMalaysian = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
     const link = document.createElement("a");
-    link.href = resumeJapaneseUrl;
-    link.download = "Resume-Japanese.pdf";
+    link.href = resumeMalaysianUrl;
+    link.download = "Resume-Malaysian.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
