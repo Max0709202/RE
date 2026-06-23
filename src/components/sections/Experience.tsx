@@ -114,7 +114,7 @@ const experiences = [
     ],
   },
   {
-    role: "Senior Information Technology Support Engineer | AI engineer",
+    role: "Senior Information Technology Support Engineer",
     company: "HMS Far East Pte Ltd - Seven Seas Group",
     period: "April 2014 – March 2018",
     responsibilities: [
